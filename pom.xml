@@ -8,11 +8,19 @@
 		<version>3.5.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+<<<<<<< HEAD
 	<groupId>com.example</groupId>
 	<artifactId>projetoJogos</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>projetoJogos</name>
 	<description>Demo project for Spring Boot</description>
+=======
+	<groupId>com.projetoJogos</groupId>
+	<artifactId>dslist</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>dslist</name>
+	<description>Projeto Java Spring </description>
+>>>>>>> 308a0dcd28402aecb1e617d32f49ee9836d25b27
 	<url/>
 	<licenses>
 		<license/>
@@ -27,15 +35,39 @@
 		<url/>
 	</scm>
 	<properties>
+<<<<<<< HEAD
 		<java.version>17</java.version>
+=======
+		<java.version>21</java.version>
+>>>>>>> 308a0dcd28402aecb1e617d32f49ee9836d25b27
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+<<<<<<< HEAD
+=======
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+>>>>>>> 308a0dcd28402aecb1e617d32f49ee9836d25b27
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
 		<dependency>
+<<<<<<< HEAD
+=======
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+>>>>>>> 308a0dcd28402aecb1e617d32f49ee9836d25b27
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
@@ -45,6 +77,14 @@
 	<build>
 		<plugins>
 			<plugin>
+<<<<<<< HEAD
+=======
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>3.1.0</version> <!--$NO-MVN-MAN-VER$ -->
+			</plugin>
+			<plugin>
+>>>>>>> 308a0dcd28402aecb1e617d32f49ee9836d25b27
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
